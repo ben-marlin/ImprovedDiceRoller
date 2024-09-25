@@ -175,7 +175,7 @@ Here we've started returning the sum instead of a single entry. Test this to mak
 
 This got us most of what we wanted. Now we just have to drop the low rolls. But since they were randomly assigned, there is no way to know where the low values are! It sure would be convenient if they were sorted, right?
 
-In your import section add `import java.util.Arrays;` - this is a collection of functions that are useful when dealing with arrays. In `diceroller`, the ending like this.
+In your import section add `import java.util.Arrays;` - this is a collection of functions that are useful when dealing with arrays. In `diceroller`, modify the ending to something like this.
 
 ```
     ...
@@ -217,4 +217,4 @@ If you feel inclined, you can use this to test the notion that "rolling with adv
 
 Look back at your program. Comment each section of code so that you can look back at it and know what it did and why. Don't forget your name and date!
 
-When you're ready, commit your changes and indicate on Canvas you're ready for me to grade it.
+When you're ready, STAGE your changes by hovering over the list to get a + sign, then clicking on that. COMMIT your changes by giving a message and clicking the button. SYNC your changes by clicking the resulting button. COMPLETE by indicating on Canvas you're ready for me to grade it.
